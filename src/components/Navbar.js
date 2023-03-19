@@ -43,4 +43,4 @@ navbar.propTypes = {
 navbar.defaultProps = {
     idname: "Set title here",
     about: "Set about here"
-}
+};

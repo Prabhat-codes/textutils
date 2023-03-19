@@ -1,16 +1,10 @@
 import './App.css';
-import Navbar from './components/navbar';
+import React from 'react'
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <div className="container">
-        <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe aut excepturi vero, 
-          earum quo iusto assumenda eveniet et non perferendis quis commodi, inventore quidem mollitia 
-          voluptatem, in accusantium amet accusamus. Testing Git out
-        </h1>
-      </div>
+      <Navbar idname="TextUtils" about="About Us"/>
     </div>
   );
 }

@@ -13,12 +13,14 @@ function App() {
       setMode('dark')
       document.body.style.backgroundColor = '#262525'
       setbtnText('Enable light Mode')
+      document.title = "TextUtils - Dark Mode"
       // showAlert("Dark Mode has been enabled", "success");
     }
     else {
       setMode('light')
       document.body.style.backgroundColor = 'white'
       setbtnText('Enable dark Mode')
+      document.title = "TextUtils - Light Mode";
       // showAlert("Light Mode has been enabled", "success");
     }
   }

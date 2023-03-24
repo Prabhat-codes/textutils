@@ -35,7 +35,7 @@ function App() {
       <BrowserRouter>
         <Navbar idname="TextUtils" about="About Us" mode={mode} toggleMode={toggleMode} btnText={btnText} />
         <Routes>
-          <Route exact path="/" element={<TextForm heading="Enter the text to analyze." mode={mode} />} />
+          <Route exact path="/home" element={<TextForm heading="Enter the text to analyze." mode={mode} />} />
           <Route exact path="/about" element={<About mode={mode} />} />
         </Routes>
       </BrowserRouter>

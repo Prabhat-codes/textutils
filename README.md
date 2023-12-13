@@ -69,4 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-\b(?:[1-9]|1\d|20)(?:,(?:[1-9]|1\d|20))*\b
+\b(?:[1-9]|1\d|20)(?:\s*,\s*(?:[1-9]|1\d|20))*\b
